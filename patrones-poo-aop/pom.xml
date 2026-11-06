@@ -10,7 +10,7 @@
  <build><plugins>
   <plugin><groupId>org.apache.maven.plugins</groupId><artifactId>maven-compiler-plugin</artifactId><version>3.13.0</version><configuration><skipMain>true</skipMain><skip>true</skip></configuration></plugin>
   <plugin><groupId>dev.aspectj</groupId><artifactId>aspectj-maven-plugin</artifactId><version>1.14.1</version>
-   <configuration><complianceLevel>17</complianceLevel><source>17</source><target>17</target><showWeaveInfo>true</showWeaveInfo><sources><source><basedir>src/main/java</basedir><includes><include>**/*.java</include></includes></source></sources></configuration>
+   <configuration><complianceLevel>17</complianceLevel><source>17</source><target>17</target><showWeaveInfo>true</showWeaveInfo><sources><source><basedir>src/main/java</basedir><includes><include>**/*.java</include></includes></source><source><basedir>src/main/aspect</basedir><includes><include>**/*.aj</include></includes></source></sources></configuration>
    <executions><execution><goals><goal>compile</goal><goal>test-compile</goal></goals></execution></executions>
    <dependencies><dependency><groupId>org.aspectj</groupId><artifactId>aspectjtools</artifactId><version>${aspectj.version}</version></dependency></dependencies>
   </plugin>

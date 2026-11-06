@@ -1,0 +1,21 @@
+-Xajruntimetarget:1.5
+-encoding
+UTF-8
+-showWeaveInfo
+-17
+-classpath
+C:\Users\ariel\.m2\repository\org\aspectj\aspectjrt\1.9.24\aspectjrt-1.9.24.jar;C:\Users\ariel\.m2\repository\org\junit\jupiter\junit-jupiter\5.11.4\junit-jupiter-5.11.4.jar;C:\Users\ariel\Desktop\II PAO 2026\DISEÑO SOFTWARE\patrones-poo-aop-corregido\patrones-poo-aop\target\classes
+-d
+C:\Users\ariel\Desktop\II PAO 2026\DISEÑO SOFTWARE\patrones-poo-aop-corregido\patrones-poo-aop\target\classes
+-s
+C:\Users\ariel\Desktop\II PAO 2026\DISEÑO SOFTWARE\patrones-poo-aop-corregido\patrones-poo-aop\target\generated-sources\aspectj-maven-plugin
+C:\Users\ariel\Desktop\II PAO 2026\DISEÑO SOFTWARE\patrones-poo-aop-corregido\patrones-poo-aop\src\main\java\edu\espol\patrones\adapter\poo\Impresora.java
+C:\Users\ariel\Desktop\II PAO 2026\DISEÑO SOFTWARE\patrones-poo-aop-corregido\patrones-poo-aop\src\main\java\edu\espol\patrones\adapter\poo\ImpresoraAntigua.java
+C:\Users\ariel\Desktop\II PAO 2026\DISEÑO SOFTWARE\patrones-poo-aop-corregido\patrones-poo-aop\src\main\aspect\edu\espol\patrones\singleton\aop\SingletonAspect.aj
+C:\Users\ariel\Desktop\II PAO 2026\DISEÑO SOFTWARE\patrones-poo-aop-corregido\patrones-poo-aop\src\main\java\edu\espol\patrones\singleton\aop\Configuracion.java
+C:\Users\ariel\Desktop\II PAO 2026\DISEÑO SOFTWARE\patrones-poo-aop-corregido\patrones-poo-aop\src\main\aspect\edu\espol\patrones\adapter\aop\AdaptadorAspect.aj
+C:\Users\ariel\Desktop\II PAO 2026\DISEÑO SOFTWARE\patrones-poo-aop-corregido\patrones-poo-aop\src\main\java\edu\espol\patrones\adapter\aop\Impresora.java
+C:\Users\ariel\Desktop\II PAO 2026\DISEÑO SOFTWARE\patrones-poo-aop-corregido\patrones-poo-aop\src\main\java\edu\espol\patrones\adapter\poo\AdaptadorImpresora.java
+C:\Users\ariel\Desktop\II PAO 2026\DISEÑO SOFTWARE\patrones-poo-aop-corregido\patrones-poo-aop\src\main\java\edu\espol\patrones\adapter\aop\ImpresoraAntigua.java
+C:\Users\ariel\Desktop\II PAO 2026\DISEÑO SOFTWARE\patrones-poo-aop-corregido\patrones-poo-aop\src\main\java\edu\espol\patrones\singleton\poo\Configuracion.java
+C:\Users\ariel\Desktop\II PAO 2026\DISEÑO SOFTWARE\patrones-poo-aop-corregido\patrones-poo-aop\src\main\java\edu\espol\patrones\Demo.java
