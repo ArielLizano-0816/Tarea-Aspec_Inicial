@@ -1,0 +1,9 @@
+@startuml
+title Adapter POO
+interface Impresora { +imprimir(mensaje: String): void }
+class ImpresoraAntigua { +imprimirTextoAntiguo(texto: String): void }
+class AdaptadorImpresora { -antigua: ImpresoraAntigua
++imprimir(mensaje: String): void }
+AdaptadorImpresora ..|> Impresora
+AdaptadorImpresora --> ImpresoraAntigua : delega
+@enduml

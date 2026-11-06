@@ -1,0 +1,9 @@
+@startuml
+title Adapter AOP (relaciones introducidas por weaving)
+interface Impresora { +imprimir(mensaje: String): void }
+class ImpresoraAntigua { +imprimirTextoAntiguo(texto: String): void }
+class AdaptadorAspect <<aspect>> { +declare parents
++introduce imprimir(mensaje: String): void }
+ImpresoraAntigua ..|> Impresora : <<introduced>>
+AdaptadorAspect ..> ImpresoraAntigua : <<weaves>>
+@enduml

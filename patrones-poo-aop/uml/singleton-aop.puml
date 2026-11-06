@@ -1,0 +1,10 @@
+@startuml
+title Singleton AOP (método introducido por weaving)
+class Configuracion { -idioma: String
+-Configuracion()
++getIdioma(): String
++setIdioma(idioma: String): void }
+class SingletonAspect <<aspect>> { -{static} UNICA: Configuracion
++introduce getInstance(): Configuracion }
+SingletonAspect --> Configuracion : <<introduces / manages>>
+@enduml

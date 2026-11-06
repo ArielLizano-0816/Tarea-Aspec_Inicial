@@ -1,0 +1,10 @@
+@startuml
+title Singleton POO
+class Configuracion { -{static} INSTANCIA: Configuracion
+-idioma: String
+-Configuracion()
++{static} getInstance(): Configuracion
++getIdioma(): String
++setIdioma(idioma: String): void }
+Configuracion --> Configuracion : instance
+@enduml
